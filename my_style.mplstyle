@@ -1,0 +1,16 @@
+# matplotlib style to enforce some styling
+# DOC: https://matplotlib.org/stable/tutorials/introductory/customizing.html
+
+## figure background color (no transparency)
+figure.facecolor: white
+
+## font size
+axes.titlesize : 20
+axes.labelsize : 16
+lines.linewidth : 2
+lines.markersize : 10
+xtick.labelsize : 14
+ytick.labelsize : 14
+
+## set grid by default
+axes.grid : 1
