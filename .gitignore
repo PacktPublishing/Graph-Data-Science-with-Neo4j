@@ -1,5 +1,7 @@
 .ipynb_checkpoints/
 venv
+__pycache__
+cache
 
 # test files
 football
