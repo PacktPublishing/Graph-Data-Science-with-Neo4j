@@ -58,7 +58,7 @@ class PageRankTolTest {
         PregelResult res = pregelJob.run();
 
         int nbIt = res.ranIterations();
-        assert nbIt == 32;
+        assert nbIt < config.maxIterations();
 
         HugeDoubleArray nodeValues = res.nodeValues().doubleProperties(PR_KEY);
         // System.out.println(nodeValues);

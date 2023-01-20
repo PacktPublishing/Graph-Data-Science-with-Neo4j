@@ -65,13 +65,13 @@ public class PageRankTol implements PregelComputation<PageRankTol.PrTolConfig> {
 
     @Override
     public boolean masterCompute(MasterComputeContext<PrTolConfig> context) {
-        PrDiffSum df = new PrDiffSum();
+        PrDiffSum diff = new PrDiffSum();
         context.forEachNode(node_id -> {
-            df.sumDelta += context.doubleNodeValue(node_id, PR_DIFF);
+            diff.sumDelta += context.doubleNodeValue(node_id, PR_DIFF);
             return true;
         });
         double tol = context.config().tolerance();
-        double sumDeltaNormed = df.sumDelta / context.nodeCount();
+        double sumDeltaNormed = diff.sumDelta / context.nodeCount();
         // stop if the sum of all differences normalized to number of nodes
         // is lower than the tolerance
         context.logDebug(String.format("PRRol :: Step=%s, diff=%s%n", context.superstep(), sumDeltaNormed));
