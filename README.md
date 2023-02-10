@@ -1,4 +1,4 @@
-# Graph Data Science with Neo4J
+# Graph Data Science with Neo4j
 
 <a href="https://www.packtpub.com/product/graph-data-science-with-neo4j/9781804612743"><img src="https://static.packt-cdn.com/products/9781804612743/cover/smaller" alt="Graph Data Science with Neo4j" height="256px" align="right"></a>
 
