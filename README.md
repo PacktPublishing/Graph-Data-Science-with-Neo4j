@@ -4,7 +4,7 @@
 
 This is the code repository for [Graph Data Science with Neo4j](https://www.packtpub.com/product/data-engineering-with-aws/9781800560413), published by Packt.
 
-**Learn how to use Neo4j 5 with Graph Data Science library 2.0 and its Python driver for your project	**
+**Learn how to use Neo4j 5 with Graph Data Science library 2.0 and its Python driver for your project**
 
 ## What is this book about?
 
